@@ -9,8 +9,8 @@ OOP, Java'nın en çok kullanılan paradigmasıdır. Gerçek dünyadaki nesneler
 ## 2) Interface vs Abstract class ?
 Interface ve Abstract Class, ikisi de soyutlama yapmak için kullanılır ama amaçları farklıdır.  
 **Interface:** Bir sınıfın hangi davranışlara sahip olması gerektiğini belirler. İçinde sadece method signature bulunur. Metotların body'si yoktur. Uyguladığımız sınıflarda metotları kendimiz tamamlarız. Bir sınıf birden fazla interface implement edebilir.   
-**Abstract Class:** Hem abstract hem concrete metotları içerebilir. Bazı metotları direkt tanımlarken bazılarını alt sınıfta tamamlayabiliriz. Özellikle alt sınıflara miras gelen özellikler sayesinde kod tekrarını azaltır. Bir sınıf sadece bir tane abstract sınıfı extend edebilir. 
-Eğer bir sınıfa sadece belirli bir davranış kazandırmak istiyorsak interface kullanırız. Örneğin hayvanlara ses çıkarma yeteneği vereceksek ve her hayvanın farklı sesi olacaksa bunu interface ile tanımlarız. Tüm hayvanların ortak özellikleri yaş, tür, cins gibi olacak ve metotları miras almak gerekiyorsa abstract class kullanırız. Böylece her hayvan için bu ortak özellikleri tekrar yazmamış oluruz.   
+**Abstract Class:** Hem abstract hem concrete metotları içerebilir. Bazı metotları direkt tanımlarken bazılarını alt sınıfta tamamlayabiliriz. Özellikle alt sınıflara miras gelen özellikler sayesinde kod tekrarını azaltır. Bir sınıf sadece bir tane abstract sınıfı extend edebilir.   
+Eğer bir sınıfa sadece belirli bir davranış kazandırmak istiyorsak interface kullanırız. Örneğin hayvanlara ses çıkarma yeteneği vereceksek ve her hayvanın farklı sesi olacaksa bunu interface ile tanımlarız. Tüm hayvanların ortak özellikleri yaş, tür, cins gibi olacak ve metotları miras almak gerekiyorsa abstract class kullanırız. Böylece her hayvan için bu ortak özellikleri tekrar yazmamış oluruz.     
 -Hem interface'ten hem de abstract class'tan doğrudan bir nesne oluşturulamaz. (instantiate edilemez)
 
 ## 3) Why we need equals and hashcode ? When to override ?

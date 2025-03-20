@@ -1,9 +1,9 @@
 ## 1) Why we need to use OOP ? Some major OOP languages ?
-OOP, Java'nın en çok kullanılan paradigmasıdır. Gerçek dünyadaki nesneleri modelleyerek kod yazmamıza imkan verir. OOP kullanmamızın temel nedeni kodun daha düzenli, tekrar kullanılabilir ve yönetilebilir olmasını sağlamaktır. OOP'nin 4 temel özelliği vardır:
-**Encapsulation:** Veriye doğrudan erişimi sınırlandırarak güvenliği artırır ve kontrollü erişim sağlar.
-**Abstraction:** Gereksiz detayları gizleyerek yalnızca nesnenin temel özelliklerine odaklanmamızı sağlar.
-**Inheritance:** Bir sınıfın başka bir sınıftan özellikleri miras almasını mümkün kılar, kod tekrarını azaltır.
-**Polymorphism:** Alt sınıfların, üst sınıftan gelen metotları kendilerine özgü şekilde kullanmalarını sağlar.
+OOP, Java'nın en çok kullanılan paradigmasıdır. Gerçek dünyadaki nesneleri modelleyerek kod yazmamıza imkan verir. OOP kullanmamızın temel nedeni kodun daha düzenli, tekrar kullanılabilir ve yönetilebilir olmasını sağlamaktır. OOP'nin 4 temel özelliği vardır:  
+**Encapsulation:** Veriye doğrudan erişimi sınırlandırarak güvenliği artırır ve kontrollü erişim sağlar.   
+**Abstraction:** Gereksiz detayları gizleyerek yalnızca nesnenin temel özelliklerine odaklanmamızı sağlar.  
+**Inheritance:** Bir sınıfın başka bir sınıftan özellikleri miras almasını mümkün kılar, kod tekrarını azaltır.  
+**Polymorphism:** Alt sınıfların, üst sınıftan gelen metotları kendilerine özgü şekilde kullanmalarını sağlar.  
 **Bazı popüler OOP dilleri:** Java, C++, Python, Ruby, TypeScript, Swift
 
 ## 2) Interface vs Abstract class ?
